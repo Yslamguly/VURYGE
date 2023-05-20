@@ -23,3 +23,12 @@ module "write" {
   answer_5 = local.answers
 }
 
+output "files_module_outputs" {
+  value = module.files
+}
+output "read_module_outputs" {
+  value = module.read
+}
+output "write_module_outputs" {
+  value = module.write
+}
